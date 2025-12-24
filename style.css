@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.app-bg {
+    height: 100vh;
+    background: linear-gradient(135deg, #2d4fa3, #0f1c3f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    width: 320px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Music Page */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.album-cover {
+    width: 100%;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+.song-title {
+    color: #1e3a8a;
+}
+
+.artist-name {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.progress input {
+    flex: 1;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.controls button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.play {
+    background: #1e3a8a;
+    color: white;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+/* Playlist Page */
+.playlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro {
+    background: #3b82f6;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+.playlist-item img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.playlist-item h4 {
+    font-size: 15px;
+}
+
+.playlist-item p {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Links */
+.link {
+    display: block;
+    margin-top: 15px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
